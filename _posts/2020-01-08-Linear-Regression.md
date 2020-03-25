@@ -20,7 +20,7 @@ tags:
   - Why do we use the **Mean-Squared Loss(MSE)**?
 
   <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200108-193842.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/vbm8kh.jpg" style="zoom:80%" />
   </p>
 
 ## 线性回归损失函数、代价函数、目标函数
@@ -28,7 +28,7 @@ tags:
   [Objective function, cost function, loss function: are they the same thing?](https://stats.stackexchange.com/questions/179026/objective-function-cost-function-loss-function-are-they-the-same-thing)
 	
   <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200108-200933@2x.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/4EXbzg.jpg" style="zoom:80%" />
   </p>
 
 ## 线性回归的优化方法
@@ -37,7 +37,7 @@ tags:
   - Consider the 3-dimensional graph below in the context of a cost function. **Our goal is to move from the mountain in the top right corner (high cost) to the dark blue sea in the bottom left (low cost)**. The arrows represent the direction of steepest descent (negative gradient) from any given point–the direction that decreases the cost function as quickly as possible.
 
   <p align="center">
-    <img src="https://ml-cheatsheet.readthedocs.io/en/latest/_images/gradient_descent.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/nRiBwt.jpg" style="zoom:80%" />
   </p>
 
   - **What is the objective of Gradient Descent?**
@@ -51,7 +51,7 @@ tags:
     Minimizing any cost function means finding the deepest valley in that function. Keep in mind that, the cost function is used to monitor the error in predictions of an ML model. **So, the whole point of GD is to minimize the cost function**.
 
   <p align="center">
-    <img src="https://miro.medium.com/max/1588/1*4VbVds8vD-CgAiOWTrs_Vw.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/bKufop.jpg" style="zoom:80%" />
   </p>
 
   - **Learning rate**
@@ -101,7 +101,7 @@ tags:
   Suppose we have 10,000 data points and 10 features. The sum of squared residuals consists of as many terms as there are data points, so 10000 terms in our case. We need to compute the derivative of this function with respect to each of the features, so in effect we will be doing **10000 * 10 = 100,000 computations per iteration**. It is common to **take 1000 iterations**, in effect we have **100,000 * 1000 = 100000000 computations** to complete the algorithm. **That is pretty much an overhead and hence gradient descent is slow on huge data**.
 
   <p align="center">
-    <img src="https://suniljangirblog.files.wordpress.com/2018/12/descent.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/2x5eZ6.jpg" style="zoom:80%" />
   </p>
   
 ### [Stochastic Gradient Descent (SGD)](https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31)
@@ -118,7 +118,7 @@ tags:
 	<br>
   The Least Squares Regression Line is the line that **makes the vertical distance from the data points to the regression line as small as possible**. It’s called a “least squares” because the best line of fit is one that **minimizes the variance (the sum of squares of the errors)**. 
 <p align="center">
-<img src="https://raw.githubusercontent.com/rasbt/python-machine-learning-book/master/faq/closed-form-vs-gd/simple_regression.png" style="zoom:100%" />
+<img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/1T5qdq.jpg" style="zoom:100%" />
 </p>
 
 - **Goal: to find the line (or hyperplane) that minimizes the vertical offsets**
@@ -140,10 +140,10 @@ tags:
   
   - 如下图所示，这意味着存在一个全局最低点，这样的函数叫做凸函数，可以**使用梯度下降法来得到全局最低点对应的的 w** ，这里不再赘述，只讲**用微积分直接求解（最小二乘法）**。
   <p align="center">
-    <img src="https://iewaij.github.io/introDataScience/img/linRegContoursSSE.png" style="zoom:60%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/eKED1i.jpg" style="zoom:60%" />
   </p>
   <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200109-155216@2x.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/Qjf7Of.jpg" style="zoom:80%" />
   </p>
   <p align="center">
     $$
@@ -171,7 +171,7 @@ tags:
 
 ### 牛顿法
 <p align="center">
-  <img src="http://tutorial.math.lamar.edu/Classes/CalcI/NewtonsMethod_Files/image001.png" style="zoom:100%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/FBpmuL.jpg" style="zoom:100%" />
 </p>
 
 - Suppose that we want to approximate the solution to $f(x)=0$ and $0=f\left(x_{0}\right)+f^{\prime}\left(x_{0}\right)\left(x_{1}-x_{0}\right)$, so we get $x_{1}=x_{0}-\frac{f\left(x_{0}\right)}{f^{\prime}\left(x_{0}\right)}$.
@@ -187,31 +187,31 @@ $f(x) \approx f(a)+\frac{f^{\prime}(a)}{1 !}(x-a)+\frac{f^{\prime \prime}(a)}{2 
   - Newton’s method for optimization, it use **second order method**.
     - Second approximation of f(x) around axis x=a is as follows.
       <p align="center">
-        <img     src="https://cdn.mathpix.com/snip/images/Jkz6BQWQvUgWYBnBeFNt-gwXxgGHAdWUT-Pprh-2ajs.original.fullsize.png" style="zoom:100%" />
+        <img     src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/yrVqXO.jpg" style="zoom:100%" />
       </p>
       <br>
       Then, in order to get the minimal value location of approximation above, we take the first differential, and make it equal to zero. Here we go.
       <p align="center">
-        <img     src="https://cdn.mathpix.com/snip/images/lioUsagv4RU9GWm-V_Kqba4kl7UGWb5F2WKPhmuFf4E.original.fullsize.png" style="zoom:60%" />
+        <img     src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/rWnWXn.jpg" style="zoom:60%" />
       </p>
       <br>
       Voila! We just derived our Newton’s method for optimization. To find minimal value of our cost function in machine learning, we can iterate using this equation
       <p align="center">
-        <img     src="https://cdn.mathpix.com/snip/images/SqeOa3IgjToiMfPIIysOaujZN1uYyv2qsEy6p-ZWjhc.original.fullsize.png" style="zoom:60%" />
+        <img     src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/v5BlbR.jpg" style="zoom:60%" />
       </p>
   
   <p align="center">
-    <img     src="https://ardianumam.files.wordpress.com/2017/09/newtonmethodforoptim1.jpg" style="zoom:80%" />
+    <img     src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/xaduxf.jpg" style="zoom:80%" />
   </p>
   
   
 
 [Why is Newton's method not widely used in machine learning?](https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning)
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200109-220007@2x.png" style="zoom:80%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/QTZWaj.jpg" style="zoom:80%" />
 </p>
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WechatIMG892.png" style="zoom:100%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/RBiM1b.jpg" style="zoom:100%" />
 </p>
 
 ### 拟牛顿法

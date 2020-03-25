@@ -14,7 +14,7 @@ tags:
 ### [Linear Regression vs Logistic Regression](https://www.javatpoint.com/linear-regression-vs-logistic-regression-in-machine-learning)
 
 <p align="center">
-  <img src="https://static.javatpoint.com/tutorial/machine-learning/images/linear-regression-vs-logistic-regression.png" style="zoom:80%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/pKFgxq.jpg" style="zoom:80%" />
 </p>
 
 - **Main difference between them is how they are being used**
@@ -64,7 +64,7 @@ tags:
 
 - **Decision boundary**
   <p align="center">
-    <img src="https://ml-cheatsheet.readthedocs.io/en/latest/_images/logistic_regression_sigmoid_w_threshold.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/1bLM2Q.jpg" style="zoom:80%" />
   </p>
   
   - Suppose we have a generic training set $\lbrace \left(x^{(1)}, y^{(1)}\right),\left(x^{(2)}, y^{(2)}\right), \ldots,\left(x^{(m)}, y^{(m)}\right) \rbrace$, where $𝑥(𝑚)$  is the input variable of the 𝑚-th example, while $𝑦(𝑚)$ is its output variable, ranging from 0 to 1. Finally we have the hypothesis function for logistic regression, $h_{\theta}(x)=\frac{1}{1+e^{-\theta^T x}}$.
@@ -75,7 +75,7 @@ tags:
 
 - If we try to use the cost function of the linear regression in Logistic Regression $\sum^m_{i=1}(y^{(i)}-\frac{1}{1+e^{-\theta^T x}})^2$, then it would be of no use as it would **end up being a non-convex function with many local minimums**, in which it would be very **difficult to minimize the cost value and find the global minimum**.
   <p align="center">
-    <img src="https://miro.medium.com/max/2096/1*dPXwswig8RTCAjstnUZNGQ.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/LQSAIt.jpg/" style="zoom:80%" />
   </p>
 
 - Logistic regression cost function
@@ -98,12 +98,12 @@ tags:
 
 - **$\frac{\partial}{\partial \theta_{j}} J(\theta)=\frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) x_{j}^{(i)}$[推导过程](https://stats.stackexchange.com/questions/278771/how-is-the-cost-function-from-logistic-regression-derivated)**
 <p align="center">
-  <img src="https://cdn.mathpix.com/snip/images/bx-W2Eom_W9ksP6UlnL9Cwl5nmbjv56GmoO-xdg1gZ8.original.fullsize.png" style="zoom:80%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/BYYvPc.jpg" style="zoom:80%" />
 </p>
 
 - **$\frac{d}{d x} \sigma(x)=\sigma(x)(1-\sigma(x))$[推导过程](https://stats.stackexchange.com/questions/278771/how-is-the-cost-function-from-logistic-regression-derivated)**
 <p align="center">
-  <img src="https://cdn.mathpix.com/snip/images/aBPya8ZqTGWzuwbbIlYXBRGakE3Bum2JPUtiik-dUAM.original.fullsize.png" style="zoom:80%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/j0MRaf.jpg" style="zoom:80%" />
 </p>
 
 ### [逻辑回归的分布式实现](https://blog.csdn.net/qq_32742009/article/details/81839071)
@@ -153,19 +153,19 @@ class_weight: dict or ‘balanced’, default=None|调整样本不均衡问题
 
 
 <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200114-100706@2x.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/wYMvHe.jpg" style="zoom:80%" />
 </p>
 <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200114-101417@2x.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/Ef30sB.jpg" style="zoom:80%" />
 </p>
 <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200114-101434@2x.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/Kckl7a.jpg" style="zoom:80%" />
 </p>
 <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200114-101519@2x.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/N9t7yl.jpg" style="zoom:80%" />
 </p>
 <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200114-101458@2x.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/QotN3P.jpg" style="zoom:80%" />
 </p>
 
 ### [python实现(代码链接)](https://github.com/Julian-young/Julian-young.github.io/blob/dev-jiale/ipynb/Task3_logistic_regression.ipynb)

@@ -24,7 +24,7 @@ tags:
 ### Distance Measures
 
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-224253@2x.png" style="zoom:30%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/gbsQna.jpg" style="zoom:30%" />
 </p>
 
 - Minkowski metric
@@ -59,7 +59,7 @@ tags:
   <br>
   Manhattan distance is called Hamming distance when all features are binary.
   <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-225620@2x.png" style="zoom:30%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/7PRJO5.jpg" style="zoom:30%" />
   </p>
 
 - Pearson correlation coefficient
@@ -88,7 +88,7 @@ tags:
 ### K-Means
 
 <p align="center">
-  <img src="https://stanford.edu/~cpiech/cs221/img/kmeansMath.png" style="zoom:100%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/kmF0JR.jpg" style="zoom:100%" />
 </p>
 
 - 随机选取k个聚类质心点（cluster centroids）
@@ -158,7 +158,7 @@ class Kmeans:
   - K-means often doesn’t work **when clusters are not round shaped** because of it uses some kind of distance function and distance is measured from cluster center. 	
   - Another major problem with K-Means clustering is that Data point is deterministically assigned to one and only one cluster, but in reality there may be **overlapping between the cluster** for example picture shown below
   <p align="center">
-    <img src="https://miro.medium.com/max/1826/0*uQTamSp8hAcnJPl0." style="zoom:100%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/GUEtMr.jpg" style="zoom:100%" />
   </p>
 
 ### **[Gaussian Mixture Models(GMM)](https://home.deib.polimi.it/matteucc/Clustering/tutorial_html/mixture.html)**
@@ -168,7 +168,7 @@ class Kmeans:
 - In this approach we describe each cluster by its **centroid (mean), covariance , and the size of the cluster(Weight)**.
 
 <p align="center">
-  <img src="https://miro.medium.com/max/1864/0*W7QWSZOJm-l-_m96." style="zoom:100%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/hD6GIg.jpg" style="zoom:100%" />
 </p>
 
 - 相对于k均值聚类算法使用 k 个原型向量来表达聚类结构，高斯混合聚类使用 k 个高斯概率密度函数混合来表达聚类结构

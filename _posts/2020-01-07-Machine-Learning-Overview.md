@@ -23,7 +23,7 @@ tags:
 
     也就是机器从数据中总结经验，从数据中找出某种规律或者模型，并用它来解决实际问题。
       <p align="center">
-        <img src="https://github.com/Julian-young/LearningReview/raw/dev-jiale/image_0_ml_overview/image-20200106151549460.png" style="zoom:80%" />
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/iPOH5v.jpg" style="zoom:80%" />
       </p>
 
 - 为了解决什么问题
@@ -33,7 +33,7 @@ tags:
     - 某些问题难以使用普通编程解决
     - 有大量的数据样本可供使用
     <p align="center">
-      <img src="https://github.com/Julian-young/LearningReview/raw/dev-jiale/image_0_ml_overview/image-20200106151620380.png" style="zoom:80%" />
+      <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/wwcPGd.jpg" style="zoom:80%" />
     </p>
 
 ## 机器学习分类
@@ -82,12 +82,11 @@ tags:
     - 生成模型是通过尝试知道（或者关注）数据是如何生成（就是去找到一个能够生成这些数据的分布，体现在数学上就是，找到的这个分布是一个联合分布），之后再对数据分类（体现在数学上就是用联合分算出属于某类别的条件概率，选条件概率最大的那个类别就是判断数据所属的类别）
 
     <p align="center">
-      <img src="https://pic2.zhimg.com/80/v2-a2e753542fc6384ee351cabdbe6dd523_hd.jpg" style="zoom:100%" />
+      <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/rUywXP.jpg" style="zoom:100%" />
     </p>
 
-    - **二者目的都是在使后验概率最大化，判别式是直接对后验概率建模，但是生成模型通过贝叶斯定理这一“桥梁”使问题转化为求联合概率**
-
-      - 判别式模型举例：要确定一个羊是山羊还是绵羊，用判别模型的方法是从历史数据中学习到模型，然后通过提取这只羊的特征来预测出这只羊是山羊的概率，是绵羊的概率。
+- **二者目的都是在使后验概率最大化，判别式是直接对后验概率建模，但是生成模型通过贝叶斯定理这一“桥梁”使问题转化为求联合概率**
+    - 判别式模型举例：要确定一个羊是山羊还是绵羊，用判别模型的方法是从历史数据中学习到模型，然后通过提取这只羊的特征来预测出这只羊是山羊的概率，是绵羊的概率。
       - 生成式模型举例：利用生成模型是根据山羊的特征首先学习出一个山羊的模型，然后根据绵羊的特征学习出一个绵羊的模型，然后从这只羊中提取特征，放到山羊模型中看概率是多少，在放到绵羊模型中看概率是多少，哪个大就是哪个。
       
     - 生成模型：在概率统计理论中, 生成模型是指能够随机生成观测数据的模型，尤其是在给定某些隐含参数的条件下。它给观测值和标注数据序列指定一个联合概率分布。在机器学习中，生成模型可以用来直接对数据建模（例如根据某个变量的概率密度函数进行数据采样），也可以用来建立变量间的条件概率分布。条件概率分布可以由生成模型根据贝叶斯定理形成。常见的基于生成模型算法有高斯混合模型和其他混合模型、隐马尔可夫模型、随机上下文无关文法、朴素贝叶斯分类器、AODE分类器、潜在狄利克雷分配模型、受限玻尔兹曼机
@@ -222,10 +221,10 @@ tags:
       - **R方 R square**
         - **以上评价指标都无法消除量纲不一致而导致的误差值差别大的问题，最常用的指标是$R^2$,可以避免量纲不一致问题**
         <p align="center">
-          <img src="https://pic4.zhimg.com/80/v2-66f85f9a137197d57088cc71cb7ee23f_hd.png" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/jG2ZFZ.jpg" style="zoom:100%" />
         </p>
         <p align="center">
-          <img src="https://pic1.zhimg.com/80/v2-6b255832b7b8cb2d31a9422f52f4480c_hd.jpg" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/TmA3Ki.jpg" style="zoom:100%" />
         </p>
         
         - 上：y预测 - y真，our model
@@ -234,7 +233,7 @@ tags:
         
       - **Confusion Matrix**
         <p align="center">
-          <img src="https://www.kdnuggets.com/images/precision-recall-relevant-selected.jpg" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/0si77j.jpg" style="zoom:100%" />
         </p>
 
         - 真正例(True Positive, TP):You predicted positive and it’s true
@@ -289,16 +288,16 @@ tags:
         
         - AUC - ROC curve is a performance measurement for classification problem at various thresholds settings. ROC is a probability curve and AUC represents degree or measure of separability. It tells how much model is capable of distinguishing between classes. 
         <p align="center">
-          <img src="https://miro.medium.com/max/361/1*pk05QGzoWhCgRiiFbz-oKQ.png" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/GfGIOr.jpg" style="zoom:100%" />
         </p>
         
         AUC                        |  ROC
         :-------------------------:|:-------------------------:
-        <img src="https://miro.medium.com/max/528/1*Uu-t4pOotRQFoyrfqEvIEg.png" width="300"/>|<img src="https://miro.medium.com/max/365/1*HmVIhSKznoW8tFsCLeQjRw.png" width="170"/>
-        <img src="https://miro.medium.com/max/507/1*yF8hvKR9eNfqqej2JnVKzg.png" width="300"/>|<img src="https://miro.medium.com/max/365/1*-tPXUvvNIZDbqXP0qqYNuQ.png" width="170"/>
-        <img src="https://miro.medium.com/max/430/1*iLW_BrJZRI0UZSflfMrmZQ.png" width="300"/>|<img src="https://miro.medium.com/max/365/1*k_MPO2Q9bLNH9k4Wlk6v_g.png" width="170"/>
-        <img src="https://miro.medium.com/max/556/1*aUZ7H-Lw74KSucoLlj1pgw.png" width="300"/>|<img src="https://miro.medium.com/max/365/1*H7JGQbaa06BUab6tvGNZKg.png" width="170"/>
-  
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/EcvSPI.jpg" width="300"/>|<img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/YXyRx1.jpg" width="170"/>
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/FXnkFg.jpg" width="300"/>|<img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/t7pFvH.jpg" width="170"/>
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/49mVHa.jpg" width="300"/>|<img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/UPnTK1.jpg" width="170"/>
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/5srjuZ.jpg" width="300"/>|<img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/JwICnI.jpg" width="170"/>
+    
     - **复杂度度量**
       - **偏差与方差**
         - **What is bias?**
@@ -306,24 +305,23 @@ tags:
         - **What is variance?**
           - Variance is the variability of model prediction for a given data point or a value which tells us spread of our data
         <p align="center">
-          <img src="https://miro.medium.com/max/579/1*e7VaoBh5apjaM2p4afkFyg.png" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/FhLHLg.jpg" style="zoom:100%" />
         </p>
         
         <p align="center">
-          <img src="https://miro.medium.com/max/468/1*xwtSpR_zg7j7zusa4IDHNQ.png" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/vml3pj.jpg" style="zoom:100%" />
         </p> 
         
         <p align="center">
-          <img src="https://miro.medium.com/max/830/1*9hPX9pAO3jqLrzt0IE3JzA.png" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/eenZ26.jpg" style="zoom:100%" />
         </p> 
-      
       
     - **可避免偏差&可避免方差**
       <p align="center">
-        <img src="https://miro.medium.com/max/372/1*RQXgxVsrn406s7jBowyLkw.png" style="zoom:100%" />
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/nEFoaZ.jpg" style="zoom:100%" />
       </p>
       <p align="center">
-        <img src="https://miro.medium.com/max/439/1*SHjeJH4wFNjzxYjVVfh0fQ.png" style="zoom:100%" />
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/Hb3meT.jpg" style="zoom:100%" />
       </p>
       
       - **Avoidable Bias = Difference (Training Error, Human-Level Performance)**
@@ -338,7 +336,7 @@ tags:
       
     - **过拟合与欠拟合**
       <p align="center">
-        <img src="https://miro.medium.com/max/562/1*RQ6ICt_FBSx6mkAsGVwx8g.png" style="zoom:100%" />
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/b6nTM1.jpg" style="zoom:100%" />
       </p>
       
       - **欠拟合**
@@ -358,45 +356,45 @@ tags:
             - 期望风险是全局的，是基于所有样本点的损失函数最小化的。
         - *结构风险*：
           - 只考虑经验风险的话，会出现过拟合的现象，过拟合的极端情况便是模型f(x)对训练集中所有的样本点都有最好的预测能力，但是对于非训练集中的样本数据，模型的预测能力非常不好。怎么办呢？这个时候就引出了结构风险。结构风险是对经验风险和期望风险的折中。在经验风险函数后面加一个正则化项（惩罚项）便是结构风险了。
-
-      - **泛化能力**
+    
+  - **泛化能力**
         - 泛化能力通俗来讲就是指学习到的模型对未知数据的预测能力
         - 提高泛化能力的方式大致有三种：1.增加数据量。2.正则化。3.凸优化。
       - **正则化**
         <p align="center">
-          <img src="https://morvanzhou.github.io/static/results/ML-intro/L1l2regularization5.png" style="zoom:100%" />
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/0BytVF.jpg" style="zoom:100%" />
         </p>
         
         - **Lasso(L1)**
           - for lasso, the equation becomes, |β1|+|β2|≤ s
             <p align="center">
-              <img src="https://miro.medium.com/max/547/1*tHJ4sSPYV0bDr8xxEdiwXA.png" style="zoom:100%" />
+              <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/ZSgBpu.jpg" style="zoom:100%" />
             </p>   
-              
+          
         - **Ridge Regression(L2)**
           - ridge regression is expressed by β1² + β2² ≤ s
             <p align="center">
-              <img src="https://miro.medium.com/max/553/1*CiqZ8lhwxi5c4d1nV24w4g.png" style="zoom:100%" />
+              <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/9TUo3C.jpg" style="zoom:100%" />
             </p>  
-            
+          
         - 想象现在只有两个参数 theta1 theta2 要学, **蓝色的圆心是误差最小的地方**, 而**每条蓝线上的误差都是一样的**. 正规化的方程是在黄线上产生的额外误差(也能理解为惩罚度), 在黄圈上的额外误差也是一样. 所以在**蓝线和黄线交点上的点能让两个误差的合最小**. 这就是 theta1 和 theta2 正规化后的解. 要提到另外一点是, 使用 L1 的方法, 我们很可能得到的结果是只有 theta1 的特征被保留, 所以很多人也用 L1 正规化来挑选对结果贡献最大的重要特征. 但是 L1 的结并不是稳定的. 比如用批数据训练, 每次批数据都会有稍稍不同的误差曲线。
           <p align="center">
-            <img src="https://pic3.zhimg.com/80/v2-2e038f7a54e885714a7bf5ab9c5dda56_hd.jpg" style="zoom:100%" />
+            <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/4s0yNg.jpg" style="zoom:100%" />
           </p>
         
         - **如果不加L1和L2正则化的时候，对于线性回归这种目标函数凸函数的话，我们最终的结果就是最里边的紫色的小圈圈等高线上的点。**
           
         - 当加入L1正则化的时候，**我们现在的目标是不仅是原曲线算得值要小（越来越接近中心的紫色圈圈），还要使得这个菱形越小越好（F越小越好）**。那么还和原来一样的话，过中心紫色圈圈的那个菱形明显很大，因此我们要取到一个恰好的值。那么如何求值呢？
           <p align="center">
-            <img src="https://pic2.zhimg.com/80/v2-3fef81c912c4ac0fd8e61a007139f855_hd.jpg" style="zoom:100%" />
+            <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/fQcFBU.jpg" style="zoom:100%" />
           </p>
           
           - **L1正则为什么可以得到稀疏解？**
           
           L2                         |  L1
           :-------------------------:|:-------------------------:
-          <img src="https://pic2.zhimg.com/80/v2-7431d8a79deec5d0ab3193b6a3611b95_hd.jpg" width="300"/>|<img src="https://pic1.zhimg.com/80/v2-592216faffaa338fc792430a538afefc_hd.jpg" width="300"/>
-        
+          <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/b12znL.jpg" width="300"/>|<img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/oDmrKP.jpg" width="300"/>
+      
     - **模型选择**
     
       - 正则化
@@ -408,14 +406,14 @@ tags:
         - 第一种是**简单交叉验证**，所谓的简单，是和其他交叉验证方法相对而言的。首先，我们随机的将样本数据分为两部分（比如： 70%的训练集，30%的测试集），然后用训练集来训练模型，在测试集上验证模型及参数。接着，我们再把样本打乱，重新选择训练集和测试集，继续训练数据和检验模型。最后我们选择损失函数评估最优的模型和参数。　
         - 第二种是 **S折交叉验证**（ S-Folder Cross Validation），也是经常会用到的。和第一种方法不同， S折交叉验证先将数据集 D 随机划分为 S 个大小相同的互斥子集，每次随机的选择 S-1 份作为训练集，剩下的1份做测试集。当这一轮完成后，重新随机选择 S-1 份来训练数据。若干轮（小于 S )之后，选择损失函数评。
           <p align="center">
-            <img src="https://pic1.zhimg.com/80/v2-c894c9cdf08852339acf372820ef5d6c_hd.jpg" style="zoom:100%" />
+            <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/hp3Kye.jpg" style="zoom:100%" />
           </p>
           
         - 第三种是**留一交叉验证**（Leave-one-out Cross Validation），它是第二种情况的特例，此时 S等于样本数N ，这样对于 N 个样本，每次选择 N-1 个样本来训练数据，留一个样本来验证模型预测的好坏。此方法主要用于**样本量非常少**的情况，比如对于普通适中问题， N 小于50时，我一般采用留一交叉验证。
       
     - **采样：样本不均衡**
       <p align="center">
-        <img src="https://pic1.zhimg.com/80/v2-8033d9fccb8282470908e6415c6a90df_hd.jpg" style="zoom:100%" />
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/hUoH2F.jpg" style="zoom:100%" />
       </p>
     
       <ol>
@@ -431,7 +429,7 @@ tags:
       <p>3. SMOTE（右下）可以看出和过采样（右上）有了明显的不同，因为不单纯是重复正例了，而是在局部区域通过K-近邻生成了新的正例。相较于简单的过采样， SMOTE：</p>
       <ul><li>降低了过拟合风险。K近邻在局部合成数据可以被理解为一种集成学习，降低了方差。但或许也错误的加强了局部的偶然性，从而增加了过拟合风险。但一般来看，优点大于风险</li><li>也可以理解为一种过采样的soft version，对于噪音的抵抗性更强</li><li>缺点也有，比如运算开销加大，同时可能会生成一些“可疑的点”，如下图所示</li></ul>
       <p align="center">
-        <img src="https://pic4.zhimg.com/80/v2-fe094d82f6eb870d730ccd5ddfa88e3f_hd.jpg" style="zoom:100%" />
+        <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/1vFL1q.jpg" style="zoom:100%" />
       </p>  
     
   - **特征处理**
@@ -447,19 +445,20 @@ tags:
         ```python
             import lightgbm as lgb
             from sklearn.model_selection import GridSearchCV
+        ```
 
 
             def GridSearch(clf, params, X, y):
                 cscv = GridSearchCV(clf, params, scoring='neg_mean_squared_error', n_jobs=1, cv=5)
                 cscv.fit(X, y)
-
+    
                 print(cscv.cv_results_)
                 print(cscv.best_params_)
 
 
             if __name__ == '__main__':
                 train_X, train_y = get_data()
-
+    
                 param = {
                     'objective': 'regression',
                     'n_estimators': 275,
@@ -474,7 +473,7 @@ tags:
                     'random_state': 2018
                     }
                 regr = lgb.LGBMRegressor(**param)
-
+    
                 adj_params = {'n_estimators': range(100, 400, 10),
                              'min_child_weight': range(3, 20, 2),
                              'colsample_bytree': np.arange(0.4, 1.0),
@@ -483,7 +482,7 @@ tags:
                              'reg_lambda': np.arange(0.1, 1.0, 0.2),
                              'reg_alpha': np.arange(0.1, 1.0, 0.2),
                              'min_child_samples': range(10, 30)}
-
+    
                 GridSearch(regr , adj_params , train_X, train_y)
           ```
     
@@ -499,14 +498,14 @@ tags:
             def RandomSearch(clf, params, X, y):
                 rscv = RandomizedSearchCV(clf, params, scoring='neg_mean_squared_error', n_jobs=1, cv=5)
                 rscv.fit(X, y)
-
+    
                 print(rscv.cv_results_)
                 print(rscv.best_params_)
 
 
             if __name__ == '__main__':
                 train_X, train_y = get_data()
-
+    
                 param = {
                     'objective': 'regression',
                     'n_estimators': 275,
@@ -521,7 +520,7 @@ tags:
                     'random_state': 2018
                     }
                 regr = lgb.LGBMRegressor(**param)
-
+    
                 adj_params = {'n_estimators': range(100, 400, 10),
                              'min_child_weight': range(3, 20, 2),
                              'colsample_bytree': np.arange(0.4, 1.0),
@@ -530,7 +529,7 @@ tags:
                              'reg_lambda': np.arange(0.1, 1.0, 0.2),
                              'reg_alpha': np.arange(0.1, 1.0, 0.2),
                              'min_child_samples': range(10, 30)}
-
+    
                 RandomSearch(regr , adj_params , train_X, train_y)
           ```
     
@@ -551,7 +550,7 @@ tags:
         ```python
           import lightgbm as lgb
           from bayes_opt import BayesianOptimization
-
+    
           train_X, train_y = None, None
 
 
@@ -567,20 +566,20 @@ tags:
               # 输出结果
               params = bayes.res['max']
               print(params['max_params'])
-
+    
               return params
 
 
           def GBM_evaluate(min_child_samples, min_child_weight, colsample_bytree, max_depth, subsample, reg_alpha, reg_lambda):
               """自定义的模型评估函数"""
-
+    
               # 模型固定的超参数
               param = {
                   'objective': 'regression',
                   'n_estimators': 275,
                   'metric': 'rmse',
                   'random_state': 2018}
-
+    
               # 贝叶斯优化器生成的超参数
               param['min_child_weight'] = int(min_child_weight)
               param['colsample_bytree'] = float(colsample_bytree),
@@ -589,12 +588,12 @@ tags:
               param['reg_lambda'] = float(reg_lambda),
               param['reg_alpha'] = float(reg_alpha),
               param['min_child_samples'] = int(min_child_samples)
-
+    
               # 5-flod 交叉检验，注意BayesianOptimization会向最大评估值的方向优化，因此对于回归任务需要取负数。
               # 这里的评估函数为neg_mean_squared_error，即负的MSE。
               val = cross_val_score(lgb.LGBMRegressor(**param),
                   train_X, train_y ,scoring='neg_mean_squared_error', cv=5).mean()
-
+    
               return val
 
 
@@ -615,9 +614,9 @@ tags:
 
 ## **[machine learning algorithm cheat sheet]**
   <p align="center">
-    <img src="https://github.com/Julian-young/LearningReview/raw/dev-jiale/image_0_ml_overview/68747470733a2f2f626c6f672e6772696464796e616d6963732e636f6d2f636f6e74656e742f696d616765732f323031382f30342f6d616368696e656c6561726e696e67616c676f726974686d732e706e67.png" style="zoom:100%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/rsF2ji.jpg" style="zoom:100%" />
   </p>
-  
+
   <p align="center">
-    <img src="https://github.com/Julian-young/LearningReview/raw/dev-jiale/image_0_ml_overview/68747470733a2f2f6e616e6a756e7869616f2e6769746875622e696f2f696d672f4125323066657725323075736566756c2532307468696e6773253230746f2532306b6e6f7725323061626f75742532306d616368696e652532306c6561726e696e672e6a7067.png" style="zoom:100%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/OuohMf.jpg" style="zoom:100%" />
   </p>

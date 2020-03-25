@@ -204,11 +204,11 @@ tags:
 ### 注意力机制
 
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/master/uPic/soS4oy.png" style="zoom:80%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/vjKtq1.jpg" style="zoom:80%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/master/uPic/50P1zt.png" style="zoom:80%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/E2QWyP.jpg" style="zoom:80%" />
 </p>
 
 - 背景

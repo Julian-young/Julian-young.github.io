@@ -18,42 +18,41 @@ tags:
   - A decision tree is a tree where **each node represents a feature(attribute)**, **each link(branch) represents a decision(rule)** and **each leaf represents an outcome(categorical or continues value)**. 
 
 <p align="center">
-  <img src="https://miro.medium.com/max/2000/1*DUYbuD8el6Pkkj8-sw5LYw.png" style="zoom:50%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/UyzJE7.jpg" style="zoom:50%" />
 </p>
 
 ### Decision Tree algorithms
 
 <p align="center">
-  <img src="https://upload-images.jianshu.io/upload_images/3777066-960dcf8c1b4541ce.png" style="zoom:100%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/uQGTEq.jpg" style="zoom:100%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-150150@2x.png" style="zoom:40%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/7rIM7b.jpg" style="zoom:40%" />
 </p>
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-150231@2x.png" style="zoom:40%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/FqXKlJ.jpg" style="zoom:40%" />
 </p>
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-150249@2x.png" style="zoom:40%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/Ffi8Jn.jpg" style="zoom:40%" />
 </p>
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-150302@2x.png" style="zoom:40%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/FEiLvX.jpg" style="zoom:40%" />
 </p>
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-150459@2x.png" style="zoom:40%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/vKca3z.jpg" style="zoom:40%" />
 </p>
-<p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-143351@2x.png" style="zoom:40%" />
-</p>
+
 
 
 - **特征选择**
 
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-143128@2x.png" style="zoom:40%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/A2GSvf.jpg" style="zoom:40%" />
 </p>
+
 <p align="center">
-  <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-143351@2x.png" style="zoom:40%" />
+  <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/GVviCt.jpg" style="zoom:40%" />
 </p>
 
 - **划分选择**
@@ -62,27 +61,27 @@ tags:
     <br>
     In the most layman terms, Entropy is nothing but **the measure of disorder(Purity)**.
     <p align="center">
-      <img src="https://miro.medium.com/max/1130/1*M15RZMSk8nGEyOnD8haF-A.png" style="zoom:80%" />
+      <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/pyvJ28.jpg" style="zoom:80%" />
     </p>
   
     设随机标量X是一个离散随机变量，其概率分布为：$P(X=x_i)=p_i, i=1,2,...,n$，则随机变量X的熵定义为：$Ent(D)=-\sum_{i=1}^{n}p_ilog{p_i}$。**Ent(D)值越小，则D的纯度越高**。
   
   - **信息增益 Gain(D,a)**
     <p align="center">
-      <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-154400@2x.png" style="zoom:40%" />
+      <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/RikgRC.jpg" style="zoom:40%" />
     </p>
     
     一般来说，**信息增益越大说明使用属性 a 进行划分所获得的“纯度提升”越大**，因此我们可以用信息增益作为一种属性划分的选择。(选择属性 a 进行划分后，将不再作为候选的划分属性，即每个属性参与划分后就将其从候选集中移除)。
   
   - **增益率 Gain_ratio(D,a)**
     <p align="center">
-      <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-154439@2x.png" style="zoom:40%" />
+      <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/iPZYXN.jpg" style="zoom:40%" />
     </p>
     
   - **基尼指数 Gini_index(D,a)**
     
     <p align="center">
-      <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200115-154534@2x.png" style="zoom:40%" />
+      <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/5CaHcJ.jpg" style="zoom:40%" />
     </p>
     
     直观上的理解为，Gini(D)反映了从数据集D中随机抽取两个样本，其类别标记不一致的概率。因此，Gini(D)越小，则数据集D纯度越高。
@@ -143,11 +142,11 @@ end if
 ### Regerssion Tree& Classification Tree
 
 <p align="center">
-    <img src="https://github.com/Julian-young/Julian-young.github.io/raw/dev-jiale/img/WX20200114-164538.png" style="zoom:80%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/T9jbnJ.jpg" style="zoom:80%" />
 </p>
 
 <p align="center">
-    <img src="https://www.digitalvidya.com/wp-content/uploads/2019/01/Image-4-2.png" style="zoom:100%" />
+    <img src="https://gitee.com/echisenyang/GiteeForUpicUse/raw/master/uPic/e1NcyR.jpg" style="zoom:100%" />
 </p>
 
 - **Classification trees** are designed for dependent variables that take **a finite number**
